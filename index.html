@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symulator Dyrektora Instytucji Kultury</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>Symulator Dyrektora Instytucji Kultury</h1>
+            <p>Wytrzymaj rok na stanowisku, balansując między różnymi interesami</p>
+        </div>
+        
+        <div class="stats-container">
+            <div class="main-stats">
+                <div class="stat">
+                    <div class="stat-label">Budżet</div>
+                    <div class="stat-value" id="budget">100%</div>
+                    <progress id="budgetProgress" value="100" max="100"></progress>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Morale</div>
+                    <div class="stat-value" id="morale">100%</div>
+                    <progress id="moraleProgress" value="100" max="100"></progress>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Poparcie Polityczne</div>
+                    <div class="stat-value" id="political">100%</div>
+                    <progress id="politicalProgress" value="100" max="100"></progress>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Reputacja</div>
+                    <div class="stat-value" id="reputation">100%</div>
+                    <progress id="reputationProgress" value="100" max="100"></progress>
+                </div>
+            </div>
+            
+            <div class="secondary-stats">
+                <div id="specialStats">
+                    <h3>Statystyki Specjalne</h3>
+                    <div>Infrastruktura: <span id="infrastructure">0</span></div>
+                    <div>Innowacje: <span id="innovation">0</span></div>
+                    <div>Zadowolenie publiczności: <span id="publicSatisfaction">0</span></div>
+                    <div>Sieć kontaktów: <span id="connections">0</span></div>
+                    <div>Punkty rozwoju: <span id="developmentPoints">0</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="log">
+            <label>
+                <input type="checkbox" id="obviousModeToggle"> Obvious Mode
+            </label>
+        </div>
+        
+        <div id="scenario" class="scenario">
+            <!-- Tu będą wyświetlane scenariusze -->
+        </div>
+
+        <div id="choices" class="choices">
+            <!-- Tu będą wyświetlane wybory -->
+        </div>
+
+        <div id="eventLog" class="log">
+            <!-- Tu będą wyświetlane wydarzenia -->
+        </div>
+
+        <div id="developmentOptions">
+            <!-- Tu będą wyświetlane opcje rozwoju -->
+        </div>
+
+        <div id="achievements" class="achievements">
+            <!-- Tu będą wyświetlane osiągnięcia -->
+        </div>
+    </div>
+
+    <script type="module">
+        import { Game } from './game.js';
+        window.game = new Game();
+    </script>
+</body>
+</html>
