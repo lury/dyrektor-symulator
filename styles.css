@@ -544,7 +544,7 @@ dialog.legal-warning-modal .confirm-btn {
 
 @media (min-width: 768px) {
     .violation-entry {
-        flex-direction: row;
+        /* flex-direction: row; */
         justify-content: space-between;
     }
 
