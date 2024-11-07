@@ -20,7 +20,7 @@ export class Game {
             illegalActions: [],
             usedScenarios: new Set()
         };
-        
+
         console.log('Game constructor started');
         this.initializeGame();
     }
@@ -172,7 +172,7 @@ export class Game {
         try {
             const scenario = this.getAvailableScenario();
             this.state.usedScenarios.add(scenario.id);
-    
+
             console.log('Pełne dane scenariusza:', {
                 id: scenario.id,
                 text: scenario.text,
@@ -183,24 +183,24 @@ export class Game {
                     consequences: choice.consequences
                 }))
             });
-    
+
             document.getElementById('scenario').innerHTML = `
                 <h2>Miesiąc ${this.state.month}</h2>
                 <p>${scenario.text}</p>
             `;
-    
+
             const choicesContainer = document.getElementById('choices');
             choicesContainer.innerHTML = '';
-    
+
             scenario.choices.forEach((choice, index) => {
                 const button = document.createElement('button');
-                
+
                 if (choice.legalWarning) {
                     button.classList.add('illegal-choice');
                 }
-    
+
                 button.textContent = choice.text;
-    
+
                 if (choice.legalWarning) {
                     const warningSpan = document.createElement('span');
                     warningSpan.className = 'warning-icon';
@@ -209,7 +209,7 @@ export class Game {
                     warningSpan.style.display = document.getElementById('obviousModeToggle').checked ? 'inline' : 'none';
                     button.appendChild(warningSpan);
                 }
-    
+
                 // Zaktualizowany event listener
                 button.addEventListener('click', () => {
                     console.log('Button clicked - pełne dane wyboru:', {
@@ -218,7 +218,7 @@ export class Game {
                         warningContent: choice.legalWarning,
                         consequences: choice.consequences
                     });
-                    
+
                     if (choice.legalWarning) {
                         console.log('%c=== OSTRZEŻENIE PRAWNE ===', 'color: red; font-weight: bold');
                         console.log('%cWybrana opcja:', 'color: red', choice.text);
@@ -226,17 +226,17 @@ export class Game {
                         console.log(choice.legalWarning);
                         console.log('%cKonsekwencje dla instytucji:', 'color: red', choice.consequences);
                         console.log('%c=========================', 'color: red; font-weight: bold');
-                        
+
                         // Pokaż modal zamiast od razu wykonywać akcję
                         this.showLegalWarningModal(choice, () => this.makeChoice(choice.consequences, choice));
                     } else {
                         this.makeChoice(choice.consequences, choice);
                     }
                 });
-    
+
                 choicesContainer.appendChild(button);
             });
-    
+
             console.log('Scenario display completed');
         } catch (error) {
             console.error('Error in showScenario:', error);

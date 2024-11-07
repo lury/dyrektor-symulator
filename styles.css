@@ -11,7 +11,7 @@ body {
     background: white;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header {
@@ -62,7 +62,7 @@ body {
     text-align: center;
     background: white;
     border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .stat-label {
@@ -113,7 +113,7 @@ button {
 button:hover {
     background: #0056b3;
     transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 button:active {
@@ -231,7 +231,7 @@ progress::-webkit-progress-value {
         grid-template-columns: 1fr;
         margin-bottom: 1rem;
     }
-    
+
     .main-stats {
         grid-template-columns: repeat(2, 1fr);
         padding: 0.5rem;
@@ -321,16 +321,19 @@ progress::-webkit-progress-value {
 /* Style dla wyborów z ostrzeżeniem */
 .illegal-choice {
     /* border-left: 4px solid #dc3545 !important; */
-    background: #007bff !important; /* Taki sam jak standardowy button */
+    background: #007bff !important;
+    /* Taki sam jak standardowy button */
 }
 
 .illegal-choice:hover {
-    background: #0056b3 !important; /* Taki sam hover jak standardowy button */
+    background: #0056b3 !important;
+    /* Taki sam hover jak standardowy button */
 }
 
 .warning-icon {
     margin-left: 0.5rem;
-    color: #ffffff; /* Biała ikona ostrzeżenia */
+    color: #ffffff;
+    /* Biała ikona ostrzeżenia */
     font-size: 1.2em;
     vertical-align: middle;
 }
@@ -396,8 +399,13 @@ progress::-webkit-progress-value {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes slideIn {
@@ -405,6 +413,7 @@ progress::-webkit-progress-value {
         transform: translateY(-20px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
@@ -426,7 +435,7 @@ progress::-webkit-progress-value {
     .legal-warning-modal button {
         width: 100%;
     }
-    
+
     body {
         padding-top: 5px;
         margin-top: 15px;
@@ -435,6 +444,7 @@ progress::-webkit-progress-value {
     .game-container {
         padding: 0.5rem;
     }
+
     .stat-value {
         display: none;
     }
@@ -448,7 +458,7 @@ dialog.legal-warning-modal {
     padding: 0;
     border: none;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     width: 90%;
 }

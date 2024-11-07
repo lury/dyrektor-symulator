@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,7 @@
             background: white;
             padding: 2rem;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
@@ -63,19 +64,56 @@
             padding: 1rem;
             margin: 1rem 0;
         }
+
+
+        .breadcrumbs {
+            color: #666;
+            padding: 0.5rem 0;
+        }
+
+        .breadcrumbs a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumbs .separator {
+            color: #ccc;
+            margin: 0 0.5rem;
+        }
+
+        .breadcrumbs .current {
+            color: #666;
+            font-weight: 500;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
+        <nav class="breadcrumbs" style="margin-bottom: 2rem; font-size: 0.9rem;">
+            <div>
+                <a href="/">Symulator</a>
+                <span class="separator">›</span>
+                <span class="current">O projekcie</span>
+            </div>
+        </nav>
         <h1>O Symulatorze Dyrektora Instytucji Kultury</h1>
 
         <p>
-            Ten symulator nie jest żartem. Jest cynicznym, ale rzeczywistym odbiciem problemów, z którymi borykają się osoby pracujące w sektorze kultury w Polsce.
+            Ten symulator nie jest żartem. Jest cynicznym, ale rzeczywistym odbiciem problemów, z którymi borykają się
+            osoby pracujące w sektorze kultury w Polsce.
         </p>
 
         <h2>Geneza projektu</h2>
         <p>
-            Projekt powstał jako odpowiedź na narastającą frustrację w środowisku kulturalnym. Bezpośrednią inspiracją była lista ponad 140 problemów zebrana przez Kachę Szaniawską w ramach współkongresu kultury, dostępna w jej <a href="https://www.facebook.com/kacha.szaniawska/posts/pfbid031yzUEHNXybG8VD5AcUKfwvaBrPEQ5PhWryrGNBGwxg2fKqvET3agyrG7KrhVpCE7l" target="_blank" rel="noopener">poście na Facebooku</a>.
+            Projekt powstał jako odpowiedź na narastającą frustrację w środowisku kulturalnym. Bezpośrednią inspiracją
+            była lista ponad 140 problemów zebrana przez Kachę Szaniawską w ramach współkongresu kultury, dostępna w jej
+            <a href="https://www.facebook.com/kacha.szaniawska/posts/pfbid031yzUEHNXybG8VD5AcUKfwvaBrPEQ5PhWryrGNBGwxg2fKqvET3agyrG7KrhVpCE7l"
+                target="_blank" rel="noopener">poście na Facebooku</a>.
         </p>
 
         <h2>Cel projektu</h2>
@@ -90,16 +128,20 @@
         </ul>
 
         <div class="important">
-            <strong>Zastrzeżenie:</strong> Celem projektu jest zwrócenie uwagi na problemy systemowe, a nie piętnowanie konkretnych osób czy instytucji.
+            <strong>Zastrzeżenie:</strong> Celem projektu jest zwrócenie uwagi na problemy systemowe, a nie piętnowanie
+            konkretnych osób czy instytucji.
         </div>
 
         <div class="warning">
-            <strong>Uwaga prawna:</strong> Gra jest tworzona bez żadnej gwarancji prawdziwości zawartych w niej danych. Opinie prawne zostały wygenerowane przy pomocy sztucznej inteligencji i mogą być nieprecyzyjne lub błędne. Nie należy traktować ich jako wiążących porad prawnych.
+            <strong>Uwaga prawna:</strong> Gra jest tworzona bez żadnej gwarancji prawdziwości zawartych w niej danych.
+            Opinie prawne zostały wygenerowane przy pomocy sztucznej inteligencji i mogą być nieprecyzyjne lub błędne.
+            Nie należy traktować ich jako wiążących porad prawnych.
         </div>
 
         <h2>Dlaczego symulator?</h2>
         <p>
-            Format gry-symulatora pozwala na bezpieczne poznanie i zrozumienie mechanizmów działających w instytucjach kultury. Poprzez podejmowanie decyzji w kontrolowanym środowisku, użytkownicy mogą:
+            Format gry-symulatora pozwala na bezpieczne poznanie i zrozumienie mechanizmów działających w instytucjach
+            kultury. Poprzez podejmowanie decyzji w kontrolowanym środowisku, użytkownicy mogą:
         </p>
         <ul>
             <li>Poznać typowe dylematy etyczne w zarządzaniu kulturą</li>
@@ -110,11 +152,14 @@
 
         <h2>Cynizm jako narzędzie krytyki</h2>
         <p>
-            Celowo cyniczny ton symulatora służy jako narzędzie krytyki społecznej. Poprzez przerysowanie pewnych sytuacji i mechanizmów, projekt zwraca uwagę na rzeczywiste problemy, które często są bagatelizowane lub uznawane za "normalne".
+            Celowo cyniczny ton symulatora służy jako narzędzie krytyki społecznej. Poprzez przerysowanie pewnych
+            sytuacji i mechanizmów, projekt zwraca uwagę na rzeczywiste problemy, które często są bagatelizowane lub
+            uznawane za "normalne".
         </p>
 
         <footer style="margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eee;">
-            <div style="max-width: 800px; margin: 0 auto; padding: 0 1rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.9rem; color: #666;">
+            <div
+                style="max-width: 800px; margin: 0 auto; padding: 0 1rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.9rem; color: #666;">
                 <div>
                     © 2024 Symulator Dyrektora Instytucji Kultury
                 </div>
@@ -122,11 +167,13 @@
                     <a href="/disclaimer.html" style="margin-right: 1rem;">O projekcie</a>
                     <a href="/privacy.html">Polityka prywatności</a>
                     <p>
-                        Symulator Dyrektora Instytucji Kultury jest projektem non-profit, stworzonym w celu edukacyjnym i społecznym.
+                        Symulator Dyrektora Instytucji Kultury jest projektem non-profit, stworzonym w celu edukacyjnym
+                        i społecznym.
                     </p>
                 </div>
             </div>
         </footer>
     </div>
 </body>
+
 </html>

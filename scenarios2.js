@@ -609,7 +609,7 @@ export const illegalChoices = [
             }
         ]
     },
-    
+
     {
         id: "eco_washing",
         text: "Możesz dostać spory grant na 'zieloną kulturę', mimo że twoja instytucja generuje dużo odpadów i zużywa dużo energii.",
@@ -636,7 +636,7 @@ export const illegalChoices = [
             }
         ]
     },
-    
+
     {
         id: "social_media_scandal",
         text: "Pracownik przypadkowo opublikował kontrowersyjny post z oficjalnego konta instytucji. Post już się szeroko rozszedł.",
@@ -661,7 +661,7 @@ export const illegalChoices = [
             }
         ]
     },
-    
+
     {
         id: "alcohol_issue",
         text: "Podczas oficjalnego wydarzenia kilku pracowników przesadziło z alkoholem. Co robisz?",
@@ -711,7 +711,7 @@ export const illegalChoices = [
             }
         ]
     },
-    
+
     {
         id: "accessibility_issues",
         text: "Aktywiści zwracają uwagę na brak dostępności dla osób z niepełnosprawnościami. Dostosowanie budynku to ogromny koszt.",
@@ -737,7 +737,7 @@ export const illegalChoices = [
             }
         ]
     },
-    
+
     {
         id: "team_conflict",
         text: "Dwa kluczowe działy są w otwartym konflikcie, paraliżując pracę instytucji.",
@@ -762,7 +762,7 @@ export const illegalChoices = [
             }
         ]
     },
-    
+
     {
         id: "competence_gap",
         text: "Wieloletni pracownicy nie radzą sobie z nowymi technologiami, młodzi nie znają historii instytucji.",
@@ -788,7 +788,7 @@ export const illegalChoices = [
             }
         ]
     },
-    
+
     {
         id: "mental_health",
         text: "Coraz więcej pracowników skarży się na problemy ze zdrowiem psychicznym związane z pracą.",
@@ -839,7 +839,7 @@ export const illegalChoices = [
             }
         ]
     },
-    
+
     {
         id: "controversial_art",
         text: "Wystawa współczesnego artysty zawiera treści, które mogą obrazić uczucia religijne. Media już się zainteresowały.",
@@ -865,7 +865,7 @@ export const illegalChoices = [
             }
         ]
     },
-    
+
     {
         id: "local_traditions",
         text: "Twoja nowoczesna wizja instytucji kłóci się z tradycyjnymi oczekiwaniami lokalnej społeczności.",
@@ -891,7 +891,7 @@ export const illegalChoices = [
             }
         ]
     },
-    
+
     {
         id: "cultural_appropriation",
         text: "Wystawa o kulturach świata jest krytykowana za kolonialną perspektywę i zawłaszczenie kulturowe.",
@@ -917,7 +917,7 @@ export const illegalChoices = [
             }
         ]
     },
-    
+
     {
         id: "metoo_accusation",
         text: "Popularny pracownik twojej instytucji został publicznie oskarżony o molestowanie. Sprawa trafiła do mediów.",
@@ -956,7 +956,7 @@ export const scenarios = legalScenarios
     .filter(scenario => illegalChoicesMap[scenario.id])
     .map(scenario => {
         const illegalChoice = illegalChoicesMap[scenario.id];
-        
+
         // Remove any duplicates of the illegal choice in the existing choices
         const filteredChoices = scenario.choices.filter(choice => choice.text !== illegalChoice.text);
 
@@ -966,7 +966,7 @@ export const scenarios = legalScenarios
 
         return {
             ...scenario,
-            choices: randomizedChoices 
+            choices: randomizedChoices
         };
     });
 

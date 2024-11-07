@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,7 @@
             background: white;
             padding: 2rem;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
@@ -45,14 +46,47 @@
             border-radius: 4px;
             margin: 1rem 0;
         }
+
+        .breadcrumbs {
+            color: #666;
+            padding: 0.5rem 0;
+        }
+
+        .breadcrumbs a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumbs .separator {
+            color: #ccc;
+            margin: 0 0.5rem;
+        }
+
+        .breadcrumbs .current {
+            color: #666;
+            font-weight: 500;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
+        <nav class="breadcrumbs" style="margin-bottom: 2rem; font-size: 0.9rem;">
+            <div>
+                <a href="/">Symulator</a>
+                <span class="separator">›</span>
+                <span class="current">Polityka prywatności</span>
+            </div>
+        </nav>
         <h1>Polityka Prywatności</h1>
 
         <div class="notice">
-            <strong>Uwaga:</strong> Ta strona jest projektem niekomercyjnym i edukacyjnym. Nie zarabiamy na niej ani nie sprzedajemy żadnych produktów czy usług.
+            <strong>Uwaga:</strong> Ta strona jest projektem niekomercyjnym i edukacyjnym. Nie zarabiamy na niej ani nie
+            sprzedajemy żadnych produktów czy usług.
         </div>
 
         <h2>1. Zbieranie danych</h2>
@@ -64,7 +98,8 @@
             <li>Microsoft Clarity</li>
         </ul>
         <p>
-            Narzędzia te służą wyłącznie do zbierania anonimowych informacji o sposobie korzystania z witryny w celu jej ulepszania i zrozumienia, jak jest używana.
+            Narzędzia te służą wyłącznie do zbierania anonimowych informacji o sposobie korzystania z witryny w celu jej
+            ulepszania i zrozumienia, jak jest używana.
         </p>
 
         <h2>2. Rodzaj zbieranych informacji</h2>
@@ -92,12 +127,14 @@
 
         <h2>4. Cookies</h2>
         <p>
-            Strona może wykorzystywać pliki cookie niezbędne do działania narzędzi analitycznych. Nie używamy żadnych dodatkowych cookies ani nie przechowujemy danych użytkowników na własnych serwerach.
+            Strona może wykorzystywać pliki cookie niezbędne do działania narzędzi analitycznych. Nie używamy żadnych
+            dodatkowych cookies ani nie przechowujemy danych użytkowników na własnych serwerach.
         </p>
 
         <h2>5. Udostępnianie danych</h2>
         <p>
-            Nie sprzedajemy, nie wymieniamy ani nie udostępniamy zebranych informacji stronom trzecim. Jedynymi podmiotami mającymi dostęp do danych są:
+            Nie sprzedajemy, nie wymieniamy ani nie udostępniamy zebranych informacji stronom trzecim. Jedynymi
+            podmiotami mającymi dostęp do danych są:
         </p>
         <ul>
             <li>Google (poprzez Google Analytics)</li>
@@ -116,20 +153,25 @@
 
         <h2>7. Kontakt</h2>
         <p>
-            Projekt nie posiada dedykowanego zespołu obsługi. W przypadku pytań dotyczących prywatności, możesz utworzyć issue w repozytorium projektu na GitHubie.
+            Projekt nie posiada dedykowanego zespołu obsługi. W przypadku pytań dotyczących prywatności, możesz utworzyć
+            issue w repozytorium projektu na GitHubie.
         </p>
 
         <h2>8. Zmiany w polityce prywatności</h2>
         <p>
-            Zastrzegamy sobie prawo do wprowadzania zmian w polityce prywatności. Wszystkie zmiany będą publikowane na tej stronie.
+            Zastrzegamy sobie prawo do wprowadzania zmian w polityce prywatności. Wszystkie zmiany będą publikowane na
+            tej stronie.
         </p>
 
         <div class="notice" style="margin-top: 2rem;">
-            <strong>Zastrzeżenie:</strong> Ten projekt jest tworzony jako inicjatywa non-profit i nie gwarantujemy żadnego poziomu usług ani bezpieczeństwa danych poza standardowymi zabezpieczeniami oferowanymi przez używane narzędzia analityczne.
+            <strong>Zastrzeżenie:</strong> Ten projekt jest tworzony jako inicjatywa non-profit i nie gwarantujemy
+            żadnego poziomu usług ani bezpieczeństwa danych poza standardowymi zabezpieczeniami oferowanymi przez
+            używane narzędzia analityczne.
         </div>
 
         <footer style="margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eee;">
-            <div style="max-width: 800px; margin: 0 auto; padding: 0 1rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.9rem; color: #666;">
+            <div
+                style="max-width: 800px; margin: 0 auto; padding: 0 1rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.9rem; color: #666;">
                 <div>
                     © 2024 Symulator Dyrektora Instytucji Kultury
                 </div>
@@ -137,11 +179,13 @@
                     <a href="/disclaimer.html" style="margin-right: 1rem;">O projekcie</a>
                     <a href="/privacy.html">Polityka prywatności</a>
                     <p>
-                        Symulator Dyrektora Instytucji Kultury jest projektem non-profit, stworzonym w celu edukacyjnym i społecznym.
+                        Symulator Dyrektora Instytucji Kultury jest projektem non-profit, stworzonym w celu edukacyjnym
+                        i społecznym.
                     </p>
                 </div>
             </div>
         </footer>
     </div>
 </body>
+
 </html>
