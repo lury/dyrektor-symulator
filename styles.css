@@ -229,10 +229,25 @@ progress::-webkit-progress-value {
 @media (max-width: 768px) {
     .stats-container {
         grid-template-columns: 1fr;
+        margin-bottom: 1rem;
     }
     
     .main-stats {
         grid-template-columns: repeat(2, 1fr);
+        padding: 0.5rem;
+    }
+
+    .log {
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .scenario {
+        padding: 0.5rem;
+    }
+
+    .ending {
+        padding: 0.5rem;
     }
 }
 
@@ -283,7 +298,7 @@ progress::-webkit-progress-value {
 
 .legal-warning-modal .modal-buttons {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     gap: 1rem;
     margin-top: 1.5rem;
 }
@@ -348,7 +363,7 @@ progress::-webkit-progress-value {
     padding: 1rem;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 4px;
-    border-left: 4px solid #dc3545;
+    /* border-left: 4px solid #dc3545; */
 }
 
 .violation-entry h4 {
@@ -404,12 +419,28 @@ progress::-webkit-progress-value {
     }
 
     .legal-warning-modal .modal-buttons {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 0.5rem;
     }
 
     .legal-warning-modal button {
         width: 100%;
+    }
+    
+    body {
+        padding-top: 5px;
+        margin-top: 15px;
+    }
+
+    .game-container {
+        padding: 0.5rem;
+    }
+    .stat-value {
+        display: none;
+    }
+
+    .header {
+        margin-bottom: 1rem;
     }
 }
 
@@ -456,4 +487,63 @@ dialog.legal-warning-modal .cancel-btn {
 
 dialog.legal-warning-modal .confirm-btn {
     background: #dc3545;
+}
+
+.legal-summary {
+    max-width: 600px;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 8px;
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.violation-entry {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    /* border-left: 4px solid #dc3545; */
+    box-sizing: border-box;
+}
+
+.violation-entry h4, .violation-entry p, .violation-entry pre {
+    margin: 0.5rem 0;
+}
+
+.violation-entry pre {
+    max-height: 150px;
+    overflow-y: auto;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .violation-entry {
+        padding: 0.5rem;
+    }
+
+    .legal-summary {
+        max-width: 90%;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .violation-entry {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .violation-entry h4 {
+        flex: 1;
+        margin-right: 1rem;
+    }
+
+    .violation-entry pre {
+        flex: 2;
+    }
 }

@@ -15,14 +15,14 @@ export const illegalChoices = [
                     reputation: -15,
                     political: +5
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 271 § 1 KK - Poświadczenie nieprawdy w dokumentach (do 5 lat)
 - Art. 286 § 1 KK - Oszustwo (do 8 lat)
 - Art. 231 § 2 KK - Przekroczenie uprawnień w celu osiągnięcia korzyści majątkowej (do 10 lat)
 - Art. 18 pkt 1 Ustawy o finansach publicznych - Naruszenie dyscypliny finansów publicznych
 - Art. 296 KK - Wyrządzenie szkody w obrocie gospodarczym (do 10 lat)
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Obowiązek zwrotu środków publicznych
 - Zakaz pełnienia funkcji w instytucjach publicznych
 - Odpowiedzialność cywilna za szkodę`
@@ -42,13 +42,13 @@ Dodatkowe konsekwencje:
                     morale: -10,
                     political: +5
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 271 § 1 KK - Poświadczenie nieprawdy w dokumentach (do 5 lat)
 - Art. 297 § 1 KK - Oszustwo finansowe (do 5 lat)
 - Art. 77 pkt 1 Ustawy o rachunkowości - Prowadzenie ksiąg rachunkowych niezgodnie z prawdą
 - Art. 61 § 1 Ustawy o finansach publicznych - Naruszenie dyscypliny finansów publicznych
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Odpowiedzialność solidarna z księgową
 - Utrata uprawnień do zarządzania środkami publicznymi
 - Obowiązek zwrotu nieprawidłowo wydatkowanych środków`
@@ -67,12 +67,12 @@ Dodatkowe konsekwencje:
                     reputation: -25,
                     morale: -15
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 231 § 1 KK - Niedopełnienie obowiązków (do 3 lat)
 - Art. 239 § 1 KK - Utrudnianie postępowania karnego (do 5 lat)
 - Art. 18 § 3 KK - Pomocnictwo przez zaniechanie (wymiar kary jak za sprawstwo)
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Współodpowiedzialność za wcześniejsze nadużycia
 - Utrata wiarygodności przy przyszłych wnioskach grantowych
 - Ryzyko kontroli wszystkich realizowanych projektów`
@@ -91,13 +91,13 @@ Dodatkowe konsekwencje:
                     reputation: -20,
                     morale: -15
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 270 § 1 KK - Fałszerstwo dokumentów (do 5 lat)
 - Art. 273 KK - Użycie poświadczenia nieprawdy (do 5 lat)
 - Art. 276 KK - Niszczenie/ukrywanie dokumentów (do 2 lat)
 - Art. 77 Ustawy o rachunkowości - Nieprawidłowości w księgach rachunkowych
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Odpowiedzialność za wcześniejsze nieprawidłowości
 - Zwrot środków z odsetkami
 - Zakaz pełnienia funkcji w instytucjach publicznych`
@@ -120,13 +120,13 @@ Dodatkowe konsekwencje:
                     reputation: -15,
                     connections: +2
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 231 § 1 KK - Przekroczenie uprawnień (do 3 lat)
 - Art. 228 § 3 KK - Przyjęcie korzyści osobistej (do 8 lat)
 - Art. 18 Ustawy o pracownikach samorządowych - Naruszenie zasad naboru
 - Art. 183a § 1 Kodeksu pracy - Naruszenie zasady równego traktowania
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Nieważność umowy o pracę
 - Odpowiedzialność odszkodowawcza wobec innych kandydatów
 - Ryzyko kontroli PIP i CBA`
@@ -145,13 +145,13 @@ Dodatkowe konsekwencje:
                     political: +15,
                     reputation: -15
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 231 § 1 KK - Przekroczenie uprawnień (do 3 lat)
 - Art. 271 § 1 KK - Poświadczenie nieprawdy w dokumentacji konkursowej (do 5 lat)
 - Art. 18 Ustawy o pracownikach samorządowych - Naruszenie procedur naboru
 - Art. 183b Kodeksu pracy - Dyskryminacja w zatrudnieniu
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Możliwość zaskarżenia wyników konkursu
 - Roszczenia odszkodowawcze innych kandydatów
 - Konieczność powtórzenia procedury konkursowej`
@@ -172,17 +172,17 @@ Dodatkowe konsekwencje:
                     reputation: -20,
                     publicSatisfaction: -5
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 943 § 1 Kodeksu pracy - Odpowiedzialność za mobbing
 - Art. 218 § 1a KK - Złośliwe naruszanie praw pracownika (do 2 lat)
 - Art. 231 KK - Niedopełnienie obowiązków (do 3 lat)
 
-Konsekwencje cywilne:
+<strong>Konsekwencje cywilne</strong>:
 - Odszkodowanie za mobbing (min. wynagrodzenie minimalne)
 - Zadośćuczynienie za rozstrój zdrowia
 - Odpowiedzialność solidarna z mobberem
 
-Dodatkowe skutki:
+<strong>Dodatkowe skutki</strong>:
 - Kontrola PIP
 - Pozwy zbiorowe
 - Koszty procesów sądowych`
@@ -201,12 +201,12 @@ Dodatkowe skutki:
                     budget: +5,
                     reputation: -15
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 183e § 1 Kodeksu pracy - Dyskryminacja ze względu na rodzicielstwo
 - Art. 1864 Kodeksu pracy - Naruszenie ochrony pracownika po urlopie macierzyńskim
 - Art. 218 § 1a KK - Złośliwe naruszanie praw pracownika
 
-Konsekwencje:
+<strong>Konsekwencje</strong>:
 - Przywrócenie do pracy na poprzednich warunkach
 - Odszkodowanie za okres pozostawania bez pracy
 - Zadośćuczynienie za naruszenie dóbr osobistych
@@ -227,12 +227,12 @@ Konsekwencje:
                     reputation: -20,
                     publicSatisfaction: -10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 282 § 1 Kodeksu pracy - Niewypłacanie wynagrodzenia (grzywna)
 - Art. 22 § 1 Kodeksu pracy - Zatrudnienie w warunkach charakterystycznych dla stosunku pracy
 - Art. 219 KK - Naruszenie praw pracownika (do 2 lat)
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Obowiązek zawarcia umów o pracę z wyrównaniem
 - Zaległe składki ZUS z odsetkami
 - Kary nakładane przez PIP
@@ -252,12 +252,12 @@ Dodatkowe konsekwencje:
                     efficiency: -20,
                     reputation: -10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 207 § 2 Kodeksu pracy - Naruszenie obowiązku zapewnienia bezpiecznych warunków pracy
 - Art. 220 KK - Narażenie pracownika na niebezpieczeństwo (do 3 lat)
 - Art. 221 KK - Niedopełnienie obowiązków BHP
 
-Konsekwencje:
+<strong>Konsekwencje</strong>:
 - Odpowiedzialność za wypadki przy pracy
 - Zwiększone składki wypadkowe ZUS
 - Kontrole PIP i sanepidu
@@ -279,12 +279,12 @@ Konsekwencje:
                     political: +5,
                     publicSatisfaction: +10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 229 § 1 KK - Wręczenie korzyści majątkowej (do 8 lat)
 - Art. 271 § 3 KK - Poświadczenie nieprawdy dla korzyści majątkowej (do 8 lat)
 - Art. 44 Ustawy o finansach publicznych - Naruszenie dyscypliny finansowej
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Obowiązek zwrotu nieprawidłowo wydatkowanych środków
 - Odpowiedzialność za współudział w przestępstwie
 - Ryzyko szantażu w przyszłości
@@ -305,12 +305,12 @@ Dodatkowe konsekwencje:
                     morale: -20,
                     publicSatisfaction: -15
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 231 § 1 KK - Przekroczenie uprawnień (do 3 lat)
 - Art. 228 § 4 KK - Uzależnienie wykonania czynności służbowej od korzyści
 - Art. 51 Ustawy o organizowaniu działalności kulturalnej - Naruszenie autonomii instytucji
 
-Konsekwencje:
+<strong>Konsekwencje</strong>:
 - Naruszenie wolności twórczości artystycznej (Art. 73 Konstytucji)
 - Możliwość zaskarżenia decyzji przez artystów
 - Odpowiedzialność odszkodowawcza wobec twórców`
@@ -332,13 +332,13 @@ Konsekwencje:
                     political: -5,
                     connections: +5
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 17 ust. 1 Prawo zamówień publicznych - Naruszenie zasady bezstronności
 - Art. 305 KK - Udaremnienie przetargu publicznego (do 3 lat)
 - Art. 230 KK - Płatna protekcja (do 8 lat)
 - Art. 296a KK - Korupcja gospodarcza (do 8 lat)
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Nieważność umowy z wykonawcą
 - Kary finansowe od UZP
 - Wykluczenie z przyszłych przetargów
@@ -359,12 +359,12 @@ Dodatkowe konsekwencje:
                     political: -10,
                     morale: -15
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 91 Prawa budowlanego - Niezapewnienie bezpieczeństwa obiektu
 - Art. 160 KK - Narażenie na niebezpieczeństwo (do 5 lat)
 - Art. 220 KK - Narażenie pracowników (do 3 lat)
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Pełna odpowiedzialność karna w przypadku wypadku
 - Natychmiastowe zamknięcie obiektu przez nadzór budowlany
 - Utrata ubezpieczenia
@@ -387,12 +387,12 @@ Dodatkowe konsekwencje:
                     innovation: -10,
                     efficiency: -20
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 276 KK - Niszczenie/ukrywanie dokumentów (do 2 lat)
 - Art. 231 KK - Niedopełnienie obowiązków (do 3 lat)
 - Ustawa o narodowym zasobie archiwalnym - Naruszenie obowiązku ochrony
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Odpowiedzialność za utratę dziedzictwa kulturowego
 - Kary nakładane przez Naczelną Dyrekcję Archiwów Państwowych
 - Osobista odpowiedzialność finansowa za odtworzenie zbiorów`
@@ -412,12 +412,12 @@ Dodatkowe konsekwencje:
                     political: -10,
                     publicSatisfaction: -15
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 257 KK - Dyskryminacja ze względu na przynależność narodową (do 3 lat)
 - Art. 119 KK - Dyskryminacja w życiu publicznym (do 5 lat)
 - Art. 183a Kodeksu pracy - Naruszenie zasady równego traktowania
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Wykluczenie z międzynarodowych programów wymiany
 - Utrata grantów unijnych
 - Postępowanie przed rzecznikiem praw człowieka
@@ -439,12 +439,12 @@ Dodatkowe konsekwencje:
                     reputation: -15,
                     innovation: +10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 79 Ustawy o prawie autorskim - Naruszenie praw autorskich
 - Art. 23 RODO - Nieprawidłowe przetwarzanie danych osobowych
 - Art. 231 KK - Przekroczenie uprawnień (przy wykorzystaniu chronionych zbiorów)
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Kary od UODO (do 20 mln euro lub 4% rocznego obrotu)
 - Roszczenia twórców o naruszenie praw osobistych
 - Odpowiedzialność za naruszenie praw do wizerunku
@@ -464,12 +464,12 @@ Dodatkowe konsekwencje:
                     reputation: -20,
                     publicSatisfaction: -10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 115 Ustawy o prawie autorskim - Naruszenie praw majątkowych
 - Art. 43 Ustawy o działalności kulturalnej - Naruszenie zasad wynagradzania twórców
 - Art. 282 Kodeksu pracy (przy ukrytym stosunku pracy)
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Zakaz korzystania z utworów
 - Obowiązek zapłaty trzykrotności wynagrodzenia
 - Utrata reputacji w środowisku artystycznym
@@ -491,12 +491,12 @@ Dodatkowe konsekwencje:
                     reputation: -15,
                     innovation: -10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 107 Ustawy o ochronie danych osobowych - Niezgodne z prawem przetwarzanie
 - Art. 266 KK - Ujawnienie informacji (do 2 lat)
 - Art. 52 RODO - Naruszenie ogólnych zasad przetwarzania
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Kary finansowe od UODO
 - Obowiązek powiadomienia osób poszkodowanych
 - Dodatkowe kontrole i audyty
@@ -518,12 +518,12 @@ Dodatkowe konsekwencje:
                     reputation: -20,
                     morale: -15
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 286 § 1 KK - Oszustwo ubezpieczeniowe (do 8 lat)
 - Art. 108 Ustawy o ochronie zabytków - Zniszczenie zabytku
 - Art. 44 Ustawy o muzeach - Naruszenie obowiązku opieki nad zbiorami
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Utrata akredytacji muzealnej
 - Wykluczenie z programów ministerialnych
 - Osobista odpowiedzialność za zniszczenie dziedzictwa
@@ -545,12 +545,12 @@ Dodatkowe konsekwencje:
                     budget: +10,
                     reputation: -15
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 297 KK - Oszustwo dotacyjne (do 5 lat)
 - Art. 231 KK - Przekroczenie uprawnień
 - Art. 8 Ustawy o odpowiedzialności za naruszenie dyscypliny finansów publicznych
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Zwrot dotacji z odsetkami
 - Wykluczenie z przyszłych programów dotacyjnych
 - Odpowiedzialność solidarna z członkami zarządu
@@ -572,12 +572,12 @@ Dodatkowe konsekwencje:
                     political: +10,
                     reputation: -20
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 230 KK - Płatna protekcja (do 8 lat)
 - Art. 231 KK - Przekroczenie uprawnień
 - Art. 12 Ustawy o ograniczeniu prowadzenia działalności gospodarczej przez osoby pełniące funkcje publiczne
 
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
 - Unieważnienie decyzji grantowych
 - Wykluczenie z przyszłych komisji konkursowych
 - Postępowanie dyscyplinarne
@@ -596,13 +596,13 @@ Dodatkowe konsekwencje:
                     reputation: -25,
                     connections: -1
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 231 § 1 KK - Niedopełnienie obowiązków (do 3 lat)
     - Art. 271 § 1 KK - Poświadczenie nieprawdy w dokumentach (do 5 lat)
     - Art. 239 § 1 KK - Utrudnianie postępowania karnego (do 5 lat)
     - Art. 296 KK - Nadużycie zaufania w obrocie gospodarczym (do 10 lat)
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Odpowiedzialność za szkodę w pełnej wysokości
     - Zakaz pełnienia funkcji w instytucjach publicznych
     - Ryzyko kontroli wszystkich projektów`
@@ -622,13 +622,13 @@ Dodatkowe konsekwencje:
                     innovation: -5,
                     publicSatisfaction: -10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 286 § 1 KK - Oszustwo (do 8 lat)
     - Art. 297 § 1 KK - Oszustwo dotacyjne (do 5 lat)
     - Art. 271 § 1 KK - Poświadczenie nieprawdy w dokumentach (do 5 lat)
     - Ustawa o odpowiedzialności za szkody w środowisku
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Obowiązek zwrotu dotacji z odsetkami
     - Wykluczenie z przyszłych programów dotacyjnych
     - Odpowiedzialność za szkody środowiskowe
@@ -648,12 +648,12 @@ Dodatkowe konsekwencje:
                     political: -10,
                     publicSatisfaction: -15
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 231 § 1 KK - Niedopełnienie obowiązków (do 3 lat)
     - Art. 23 i 24 KC - Naruszenie dóbr osobistych
     - Ustawa o ochronie danych osobowych (jeśli post zawierał dane osobowe)
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Pozwy cywilne o naruszenie dóbr osobistych
     - Kary od UODO
     - Utrata zaufania publicznego
@@ -673,12 +673,12 @@ Dodatkowe konsekwencje:
                     reputation: -15,
                     publicSatisfaction: -10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 231 § 1 KK - Niedopełnienie obowiązków (do 3 lat)
     - Art. 220 KK - Narażenie pracownika na niebezpieczeństwo (do 3 lat)
     - Art. 207 § 2 Kodeksu pracy - Naruszenie przepisów BHP
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Odpowiedzialność za ewentualne wypadki
     - Kontrole PIP i sanepidu
     - Problemy z ubezpieczeniem OC
@@ -698,12 +698,12 @@ Dodatkowe konsekwencje:
                     publicSatisfaction: -15,
                     innovation: +5
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 296 § 1a KK - Nadużycie zaufania w obrocie gospodarczym (do 10 lat)
     - Art. 231 § 2 KK - Przekroczenie uprawnień w celu osiągnięcia korzyści (do 10 lat)
     - Art. 61 Ustawy o finansach publicznych - Naruszenie dyscypliny finansowej
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Odpowiedzialność za przekroczenie budżetu
     - Ryzyko kontroli NIK
     - Osobista odpowiedzialność finansowa
@@ -724,12 +724,12 @@ Dodatkowe konsekwencje:
                     publicSatisfaction: -15,
                     political: -10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 231 § 1 KK - Niedopełnienie obowiązków (do 3 lat)
     - Ustawa o zapewnianiu dostępności osobom ze szczególnymi potrzebami
     - Art. 23 KC - Naruszenie dóbr osobistych
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Kary administracyjne
     - Pozwy o naruszenie praw osób niepełnosprawnych
     - Utrata możliwości organizacji wydarzeń publicznych
@@ -749,12 +749,12 @@ Dodatkowe konsekwencje:
                     efficiency: -20,
                     publicSatisfaction: -10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 231 § 1 KK - Niedopełnienie obowiązków (do 3 lat)
     - Art. 218 § 1a KK - Złośliwe naruszanie praw pracownika
     - Art. 943 § 1 Kodeksu pracy - Odpowiedzialność za mobbing
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Odpowiedzialność za straty wynikające z konfliktu
     - Kontrola PIP
     - Pozwy pracownicze o mobbing
@@ -775,12 +775,12 @@ Dodatkowe konsekwencje:
                     reputation: -20,
                     connections: -15
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 183a § 1 Kodeksu pracy - Dyskryminacja ze względu na wiek
     - Art. 218 § 1a KK - Złośliwe naruszanie praw pracownika
     - Art. 45 § 1 Kodeksu pracy - Nieuzasadnione wypowiedzenie
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Przywrócenie do pracy na mocy wyroku sądu
     - Odszkodowania dla zwolnionych pracowników
     - Kontrola PIP
@@ -801,12 +801,12 @@ Dodatkowe konsekwencje:
                     reputation: -15,
                     publicSatisfaction: -5
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 220 KK - Narażenie pracownika na niebezpieczeństwo (do 3 lat)
     - Art. 221 KK - Niedopełnienie obowiązków BHP
     - Art. 207 § 2 Kodeksu pracy - Obowiązek ochrony zdrowia pracowników
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Odpowiedzialność za rozstrój zdrowia pracowników
     - Zwiększone składki wypadkowe ZUS
     - Kontrole PIP i sanepidu
@@ -826,12 +826,12 @@ Dodatkowe konsekwencje:
                     publicSatisfaction: +15,
                     political: +5
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 231 § 2 KK - Przekroczenie uprawnień w celu osiągnięcia korzyści (do 10 lat)
     - Art. 296 § 1 KK - Nadużycie zaufania w obrocie gospodarczym
     - Ustawa o odpowiedzialności za naruszenie dyscypliny finansów publicznych
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Odpowiedzialność za niegospodarność
     - Obowiązek zwrotu nadmiernie wydanych środków
     - Kontrola NIK
@@ -852,12 +852,12 @@ Dodatkowe konsekwencje:
                     publicSatisfaction: -15,
                     morale: -10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 73 Konstytucji RP - Naruszenie wolności twórczości artystycznej
     - Art. 23 i 24 KC - Naruszenie dóbr osobistych artysty
     - Art. 78 Ustawy o prawie autorskim - Naruszenie autorskich praw osobistych
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Odszkodowanie dla artysty
     - Pozew o naruszenie integralności dzieła
     - Bojkot ze strony środowiska artystycznego
@@ -878,12 +878,12 @@ Dodatkowe konsekwencje:
                     connections: -15,
                     political: -10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 231 § 1 KK - Niedopełnienie obowiązków (do 3 lat)
     - Ustawa o organizowaniu działalności kulturalnej - Naruszenie misji instytucji
     - Art. 63 Ustawy o samorządzie gminnym - Naruszenie interesu społecznego
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Utrata dotacji samorządowych
     - Ryzyko odwołania przez organizatora
     - Protesty społeczne
@@ -904,12 +904,12 @@ Dodatkowe konsekwencje:
                     connections: -15,
                     publicSatisfaction: -10
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 257 KK - Publiczne znieważenie grupy z powodu przynależności etnicznej (do 3 lat)
     - Art. 119 KK - Dyskryminacja w życiu publicznym
     - Art. 23 i 24 KC - Naruszenie dóbr osobistych grup etnicznych
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Protesty organizacji międzynarodowych
     - Utrata partnerów zagranicznych
     - Wykluczenie z międzynarodowych sieci kulturalnych
@@ -930,12 +930,12 @@ Dodatkowe konsekwencje:
                     political: -15,
                     publicSatisfaction: -20
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
     - Art. 231 § 1 KK - Niedopełnienie obowiązków (do 3 lat)
     - Art. 241 KK - Publiczne rozpowszechnianie wiadomości z postępowania
     - Art. 218 § 1a KK - Złośliwe naruszanie praw pracownika
     
-Dodatkowe konsekwencje:
+<strong>Dodatkowe konsekwencje</strong>:
     - Odpowiedzialność za zaniedbanie środowiska pracy
     - Pozwy cywilne od ofiar
     - Kontrola PIP
@@ -999,7 +999,7 @@ if (scenarios.length === 0) {
                     reputation: -10,
                     morale: -5
                 },
-                legalWarning: `Możliwe zarzuty:
+                legalWarning: `<strong>Możliwe zarzuty</strong>:
 - Art. 231 KK - Niedopełnienie obowiązków (do 3 lat)
 - Art. 271 KK - Poświadczenie nieprawdy (do 5 lat)`
             }
